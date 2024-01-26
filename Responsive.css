@@ -1,0 +1,49 @@
+@media only screen and (max-width:668px){
+    .container{
+        margin-left: 3rem;
+    }
+    .menu a,.right-col{
+        display: none;
+    }
+    .circle{
+        right: 0;
+    }
+    .left-col{
+        flex-basis: 100%;
+        text-align: center;
+        padding: 0 4rem;
+        padding-left: 4rem;
+    }
+    .left-col input{
+        width: 150px;
+    }
+    #welcome-image {
+        height: 245px;
+    }
+    .left,.left-featured{
+        flex-basis: 100%;
+        margin-left: 3rem;  
+        padding: 0;
+    }
+    .right,.right-image{
+        flex-basis: 100%;
+        margin-left: 3rem;
+        padding: 0;
+    }
+    .Best-Selling{
+        margin-top: 2rem;
+    }
+    .row{
+        margin-left: 3rem;
+    }
+    .offers-left{
+        flex-basis: 100%;
+    }
+    .offers-right{
+        flex-basis: 100%;
+        padding: 2rem;
+    }
+    .footer-content{
+        justify-content: space-around;
+    }
+}
